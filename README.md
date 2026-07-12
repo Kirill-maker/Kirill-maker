@@ -181,7 +181,7 @@ BLOG-POST-LIST:END
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy-dj160axpi-kirill-makers-projects.vercel.app/?username=Kirill-maker&theme=aura&no-frame=true&no-bg=true&margin-w=4&row=1&column=7" alt="trophies"/>
+  <img src="https://github-profile-trophy-peach-eta.vercel.app/?username=Kirill-maker&theme=aura&no-frame=true&no-bg=true&margin-w=4&row=1&column=7" alt="trophies"/>
 </div>
 
 <br/>
