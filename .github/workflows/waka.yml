@@ -1,0 +1,33 @@
+# .github/workflows/waka.yml
+# Обновляет блок статистики WakaTime в README между маркерами
+# <!--START_SECTION:waka--> и <!--END_SECTION:waka-->
+#
+# ПОДГОТОВКА:
+# 1. Зарегистрируйся на https://wakatime.com и установи плагин в свою IDE
+#    (VS Code / PyCharm / GoLand — Settings -> Plugins -> WakaTime)
+# 2. Скопируй свой API Key: https://wakatime.com/settings/api-key
+# 3. В репозитории Kirill-maker/Kirill-maker:
+#    Settings -> Secrets and variables -> Actions -> New repository secret
+#    Имя: WAKATIME_API_KEY, значение — твой ключ
+name: WakaTime Stats
+
+on:
+  schedule:
+    # Каждый день в 02:00 UTC
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Update WakaTime stats in README
+        uses: athul/waka-readme@master
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          SHOW_TITLE: true
+          SHOW_TIME: true
+          BLOCKS: "░▒▓█"

@@ -1,0 +1,34 @@
+# .github/workflows/blog-posts.yml
+# Автоматически подтягивает свежие статьи/видео в README между маркерами
+# <!-- BLOG-POST-LIST:START --> и <!-- BLOG-POST-LIST:END -->
+name: Latest Blog Posts & Videos
+
+on:
+  schedule:
+    # Каждые 6 часов
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Pull latest posts
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          max_post_count: 5
+          # Перечисли свои RSS-фиды через запятую.
+          # Примеры (замени на свои реальные):
+          #   Habr:    https://habr.com/ru/rss/users/ТВОЙ_НИК/publications/articles/
+          #   Medium:  https://medium.com/feed/@ТВОЙ_НИК
+          #   Dev.to:  https://dev.to/feed/ТВОЙ_НИК
+          #   YouTube: https://www.youtube.com/feeds/videos.xml?channel_id=UCB8bEIGLXLFWwzPACVaZOsA
+          feed_list: "https://www.youtube.com/feeds/videos.xml?channel_id=UCB8bEIGLXLFWwzPACVaZOsA"
+          template: "- 🎬 [$title]($url) — $date"
+          date_format: "dd.mm.yyyy"
