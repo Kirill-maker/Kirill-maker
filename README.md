@@ -34,7 +34,7 @@ func main() {
             "REST APIs & microservices in Go",
         },
     }
-    kirill.Ship() // 🚀
+    kirill.Ship()
 }
 ```
 
