@@ -34,7 +34,7 @@ func main() {
             "REST APIs & microservices in Go",
         },
     }
-    kirill.Ship() // 🚀
+    kirill.Ship() 
 }
 ```
 
@@ -158,7 +158,7 @@ func main() {
 <!-- ══════════════════ LATEST CONTENT ══════════════════ -->
 ## 📝 Latest Posts & Videos
 
-> 🎬 Контент в разработке — скоро здесь появятся видео о Go, PyTorch и MLOps.
+> 🎬 Контент в разработке — скоро здесь появятся видео.
 > А пока — подписывайся на [YouTube-канал](https://youtube.com/channel/UCB8bEIGLXLFWwzPACVaZOsA), чтобы не пропустить первый выпуск!
 
 <!--
