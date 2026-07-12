@@ -36,7 +36,7 @@ func main() {
             "REST APIs & microservices in Go",
         },
     }
-    kirill.KeepLearning() // 🚀
+    kirill.KeepLearning()
 }
 ```
 
