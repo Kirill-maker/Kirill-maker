@@ -34,7 +34,7 @@ func main() {
             "REST APIs & microservices in Go",
         },
     }
-    kirill.Ship()
+    kirill.Ship() // 🚀
 }
 ```
 
@@ -120,13 +120,6 @@ func main() {
 ## ⏳ Coding Activity (WakaTime)
 
 <!--START_SECTION:waka-->
-
-```txt
-From: 05 July 2026 - To: 12 July 2026
-
-No activity tracked
-```
-
 <!--END_SECTION:waka-->
 
 <br/>
@@ -165,8 +158,19 @@ No activity tracked
 <!-- ══════════════════ LATEST CONTENT ══════════════════ -->
 ## 📝 Latest Posts & Videos
 
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
+> 🎬 Контент в разработке — скоро здесь появятся видео о Go, PyTorch и MLOps.
+> А пока — подписывайся на [YouTube-канал](https://youtube.com/channel/UCB8bEIGLXLFWwzPACVaZOsA), чтобы не пропустить первый выпуск!
+
+<!--
+Когда появится первое видео:
+1. Удали заглушку выше
+2. Раскомментируй маркеры ниже (убери этот комментарий)
+3. Запусти воркфлоу "Latest Blog Posts & Videos" вручную из вкладки Actions
+
+BLOG-POST-LIST:START
+BLOG-POST-LIST:END
+-->
+
 
 <br/>
 
