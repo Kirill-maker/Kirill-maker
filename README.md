@@ -1,11 +1,11 @@
 <div align="center">
 
 <!-- ══════════════════ HEADER ══════════════════ -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F00FF,100:E100FF&height=200&section=header&text=Kirill%20Lukin&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=ML%20Engineer%20%E2%80%A2%20Go%20Backend%20%E2%80%A2%20MLOps&descAlignY=55&descSize=20" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F00FF,100:E100FF&height=200&section=header&text=Kirill%20Lukin&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=CS%20Student%20%E2%80%A2%20Backend%20Developer%20%E2%80%A2%20ML%20Enthusiast&descAlignY=55&descSize=20" width="100%"/>
 
 <!-- Печатающийся текст -->
 <a href="https://github.com/Kirill-maker">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=24&pause=1000&color=A277FF&center=true&vCenter=true&width=600&lines=Building+ML-powered+microservices+in+Go;PyTorch+%E2%86%92+Production+%F0%9F%9A%80;Bridging+Data+Science+%26+Backend" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&pause=1000&color=A277FF&center=true&vCenter=true&width=800&lines=Student+learning+Go%2C+PyTorch+%26+MLOps;Building+ML-powered+microservices+in+Go;Bridging+Data+Science+%26+Backend" alt="Typing SVG" />
 </a>
 
 </div>
@@ -16,31 +16,34 @@
 ```go
 package main
 
-type Developer struct {
-    Name      string
-    Role      string
-    Learning  []string
+type Student struct {
+    Name       string
+    Status     string
+    Education  string
+    Learning   []string
     AskMeAbout []string
 }
 
 func main() {
-    kirill := Developer{
-        Name:     "Kirill Lukin",
-        Role:     "ML Engineer & Go Backend Developer",
-        Learning: []string{"Go concurrency (goroutines, channels)", "Modern DL architectures"},
+    kirill := Student{
+        Name:      "Kirill Lukin",
+        Status:    "CS Student → Backend Developer",
+        Education: "🎓 HSE University — Applied Data Analysis & AI (2024–present)",
+        Learning:  []string{"Go concurrency (goroutines, channels)", "Modern DL architectures"},
         AskMeAbout: []string{
             "Data preprocessing (Pandas / NumPy)",
             "Training neural networks (PyTorch)",
             "REST APIs & microservices in Go",
         },
     }
-    kirill.Ship() 
+    kirill.KeepLearning() // 🚀
 }
 ```
 
-- 🔭 Работаю над **RESTful-микросервисом на Go** для сервинга ML-моделей
+- 🎓 Студент **НИУ ВШЭ (Higher School of Economics)**, направление **«Прикладной анализ данных и искусственный интеллект»** (с **2024** года)
+- 💼 Развиваюсь как **backend-разработчик**: пишу RESTful-микросервисы на **Go** для сервинга ML-моделей
 - 👯 Открыт к **Open Source** проектам на стыке Data Science и Backend (data-пайплайны на Go)
-- 🤝 Ищу экспертизу в **MLOps**: оптимизация PyTorch-моделей для продакшена и интеграция с Go
+- 🤝 Ищу менторства и опыта в **MLOps**: оптимизация PyTorch-моделей для продакшена
 - 🌱 Изучаю продвинутые **паттерны конкурентности в Go** и современные **Deep Learning архитектуры**
 
 <br/>
@@ -158,7 +161,7 @@ func main() {
 <!-- ══════════════════ LATEST CONTENT ══════════════════ -->
 ## 📝 Latest Posts & Videos
 
-> 🎬 Контент в разработке — скоро здесь появятся видео.
+> 🎬 Контент в разработке — скоро здесь появятся видео о Go, PyTorch и MLOps.
 > А пока — подписывайся на [YouTube-канал](https://youtube.com/channel/UCB8bEIGLXLFWwzPACVaZOsA), чтобы не пропустить первый выпуск!
 
 <!--
@@ -178,7 +181,7 @@ BLOG-POST-LIST:END
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Kirill-maker&theme=aura&no-frame=true&no-bg=true&margin-w=4&row=1&column=7" alt="trophies"/>
+  <img src="https://github-profile-trophy-dj160axpi-kirill-makers-projects.vercel.app/?username=Kirill-maker&theme=aura&no-frame=true&no-bg=true&margin-w=4&row=1&column=7" alt="trophies"/>
 </div>
 
 <br/>
