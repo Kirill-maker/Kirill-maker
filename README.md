@@ -36,7 +36,7 @@
 ### 📊 Статистика GitHub
 
 <div align="center">
-  <!-- Карточка общей статистики -->
+  
   <img height="195px" src="https://github-readme-stats.vercel.app/api?username=Kirill-maker&show_icons=true&theme=radical&hide_border=true&include_all_commits=true" alt="Статистика Kirill-maker" />
   
   <!-- Карточка топовых языков -->
@@ -44,7 +44,6 @@
 </div>
 
 <div align="center">
-  <!-- Карточка стрика (беспрерывных коммитов) -->
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Kirill-maker&theme=radical&hide_border=true" alt="GitHub Streak" />
 </div>
 
